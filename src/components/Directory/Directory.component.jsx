@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 
+import "Directory.styles.scss";
+
 class Directory extends Component {
   constructor() {
     super();

@@ -8,8 +8,8 @@ import { auth, createUserProfileDocument } from "../../firebase/firebase.utils";
 import "./SignUp.styles.scss";
 
 class SignUp extends Component {
-  constuctor(props) {
-    super();
+  constructor(props) {
+    super(props);
 
     this.state = {
       displayName: "",

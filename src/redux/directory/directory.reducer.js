@@ -1,36 +1,41 @@
 const INITIAL_STATE = {
   sections: [
     {
-      title: "hats",
-      imageUrl: "https://i.ibb.co/cvpntL1/hats.png",
+      title: "candles",
+      imageUrl:
+        "https://res.cloudinary.com/dcs/image/upload/v1572895708/Swish%20Fox/Home-Page/homepage-candles-1.jpg",
       id: 1,
-      linkUrl: "shop/hats"
+      linkUrl: "shop/candles"
     },
     {
-      title: "jackets",
-      imageUrl: "https://i.ibb.co/px2tCc3/jackets.png",
+      title: "home",
+      imageUrl:
+        "https://res.cloudinary.com/dcs/image/upload/v1572895324/Swish%20Fox/Home-Page/homepage-home.jpg",
       id: 2,
-      linkUrl: "shop/jackets"
+      linkUrl: "shop/home"
     },
     {
-      title: "sneakers",
-      imageUrl: "https://i.ibb.co/0jqHpnp/sneakers.png",
+      title: "herdy",
+      imageUrl:
+        "https://res.cloudinary.com/dcs/image/upload/v1572895525/Swish%20Fox/Home-Page/homepage-herdy.jpg",
       id: 3,
-      linkUrl: "shop/sneakers"
+      linkUrl: "shop/herdy"
     },
     {
-      title: "womens",
-      imageUrl: "https://i.ibb.co/GCCdy8t/womens.png",
+      title: "christmas",
+      imageUrl:
+        "https://res.cloudinary.com/dcs/image/upload/v1572895955/Swish%20Fox/Home-Page/homepage-christmas.jpg",
       size: "large",
       id: 4,
-      linkUrl: "shop/womens"
+      linkUrl: "shop/christmas"
     },
     {
-      title: "mens",
-      imageUrl: "https://i.ibb.co/R70vBrQ/men.png",
+      title: "weddings",
+      imageUrl:
+        "https://res.cloudinary.com/dcs/image/upload/v1572896331/Swish%20Fox/Home-Page/homepage-weddings.jpg",
       size: "large",
       id: 5,
-      linkUrl: "shop/mens"
+      linkUrl: "shop/weddings"
     }
   ]
 };

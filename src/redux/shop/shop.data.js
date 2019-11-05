@@ -9,42 +9,42 @@ const SHOP_DATA = {
         name: "Bluebell Forest",
         imageUrl:
           "https://res.cloudinary.com/dcs/image/upload/v1572961620/Swish%20Fox/product-images/lily-flame-candle-bluebell-forest.jpg",
-        price: 8.95
+        price: 9
       },
       {
         id: 2,
         name: "Wild Jasmine",
         imageUrl:
           "https://res.cloudinary.com/dcs/image/upload/v1572961620/Swish%20Fox/product-images/lily-flame-candle-wild-jasmine.jpg",
-        price: 8.95
+        price: 9
       },
       {
         id: 3,
         name: "Party Time",
         imageUrl:
           "https://res.cloudinary.com/dcs/image/upload/v1572961860/Swish%20Fox/product-images/lily-flame-candle-party-time.jpg",
-        price: 8.95
+        price: 9
       },
       {
         id: 4,
         name: "Dolly Rocker",
         imageUrl:
           "https://res.cloudinary.com/dcs/image/upload/v1572962018/Swish%20Fox/product-images/lily-flame-candle-dolly-rocker.jpg",
-        price: 8.95
+        price: 9
       },
       {
         id: 5,
         name: "Daisy Dip",
         imageUrl:
           "https://res.cloudinary.com/dcs/image/upload/v1572962075/Swish%20Fox/product-images/lily-flame-candle-daisy-dip.jpg",
-        price: 8.95
+        price: 9
       },
       {
         id: 6,
         name: "Blush",
         imageUrl:
           "https://res.cloudinary.com/dcs/image/upload/v1572962181/Swish%20Fox/product-images/lily-flame-candle-blush.jpg",
-        price: 8.95
+        price: 9
       }
     ]
   },
@@ -205,14 +205,14 @@ const SHOP_DATA = {
         name: "Party Time",
         imageUrl:
           "https://res.cloudinary.com/dcs/image/upload/v1572961860/Swish%20Fox/product-images/lily-flame-candle-party-time.jpg",
-        price: 8.95
+        price: 9
       },
       {
         id: 26,
         name: "Blush",
         imageUrl:
           "https://res.cloudinary.com/dcs/image/upload/v1572962181/Swish%20Fox/product-images/lily-flame-candle-blush.jpg",
-        price: 8.95
+        price: 9
       },
       {
         id: 27,

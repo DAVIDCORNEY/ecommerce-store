@@ -6,57 +6,45 @@ const SHOP_DATA = {
     items: [
       {
         id: 1,
-        name: "Brown Brim",
-        imageUrl: "https://i.ibb.co/ZYW3VTp/brown-brim.png",
-        price: 25
+        name: "Bluebell Forest",
+        imageUrl:
+          "https://res.cloudinary.com/dcs/image/upload/v1572961620/Swish%20Fox/product-images/lily-flame-candle-bluebell-forest.jpg",
+        price: 8.95
       },
       {
         id: 2,
-        name: "Blue Beanie",
-        imageUrl: "https://i.ibb.co/ypkgK0X/blue-beanie.png",
-        price: 18
+        name: "Wild Jasmine",
+        imageUrl:
+          "https://res.cloudinary.com/dcs/image/upload/v1572961620/Swish%20Fox/product-images/lily-flame-candle-wild-jasmine.jpg",
+        price: 8.95
       },
       {
         id: 3,
-        name: "Brown Cowboy",
-        imageUrl: "https://i.ibb.co/QdJwgmp/brown-cowboy.png",
-        price: 35
+        name: "Party Time",
+        imageUrl:
+          "https://res.cloudinary.com/dcs/image/upload/v1572961860/Swish%20Fox/product-images/lily-flame-candle-party-time.jpg",
+        price: 8.95
       },
       {
         id: 4,
-        name: "Grey Brim",
-        imageUrl: "https://i.ibb.co/RjBLWxB/grey-brim.png",
-        price: 25
+        name: "Dolly Rocker",
+        imageUrl:
+          "https://res.cloudinary.com/dcs/image/upload/v1572962018/Swish%20Fox/product-images/lily-flame-candle-dolly-rocker.jpg",
+        price: 8.95
       },
       {
         id: 5,
-        name: "Green Beanie",
-        imageUrl: "https://i.ibb.co/YTjW3vF/green-beanie.png",
-        price: 18
+        name: "Daisy Dip",
+        imageUrl:
+          "https://res.cloudinary.com/dcs/image/upload/v1572962075/Swish%20Fox/product-images/lily-flame-candle-daisy-dip.jpg",
+        price: 8.95
       },
       {
         id: 6,
-        name: "Palm Tree Cap",
-        imageUrl: "https://i.ibb.co/rKBDvJX/palm-tree-cap.png",
-        price: 14
-      },
-      {
-        id: 7,
-        name: "Red Beanie",
-        imageUrl: "https://i.ibb.co/bLB646Z/red-beanie.png",
-        price: 18
-      },
-      {
-        id: 8,
-        name: "Wolf Cap",
-        imageUrl: "https://i.ibb.co/1f2nWMM/wolf-cap.png",
-        price: 14
-      },
-      {
-        id: 9,
-        name: "Blue Snapback",
-        imageUrl: "https://i.ibb.co/X2VJP2W/blue-snapback.png",
-        price: 16
+        name: "Blush",
+        imageUrl:
+          "https://res.cloudinary.com/dcs/image/upload/v1572962181/Swish%20Fox/product-images/lily-flame-candle-blush.jpg",
+        price: 8.95
       }
     ]
   },
@@ -66,52 +54,60 @@ const SHOP_DATA = {
     routeName: "home",
     items: [
       {
+        id: 7,
+        name: "Ducky with Yellow Boots",
+        imageUrl:
+          "https://res.cloudinary.com/dcs/image/upload/v1572963207/Swish%20Fox/product-images/dcuk/Natural_Finish_Ducky_with_Yellow_and_Gold_Spotty_Welly_Boots.jpg",
+        price: 16
+      },
+      {
+        id: 8,
+        name: "Ducky with Red Floral Boots",
+        imageUrl:
+          "https://res.cloudinary.com/dcs/image/upload/v1572963207/Swish%20Fox/product-images/dcuk/Natural_Finish_Ducky_with_Red_Floral_Welly_Boots.jpg",
+        price: 16
+      },
+      {
+        id: 9,
+        name: "Ducky with Grey Floral Boots",
+        imageUrl:
+          "https://res.cloudinary.com/dcs/image/upload/v1572963207/Swish%20Fox/product-images/dcuk/Natural_Finish_Ducky_with_Grey_Floral_Welly_Boots.jpg",
+        price: 16
+      },
+      {
         id: 10,
-        name: "Adidas NMD",
-        imageUrl: "https://i.ibb.co/0s3pdnc/adidas-nmd.png",
-        price: 220
+        name: "Ducky with Green Floral Boots",
+        imageUrl:
+          "https://res.cloudinary.com/dcs/image/upload/v1572963206/Swish%20Fox/product-images/dcuk/Natural_Finish_Ducky_with_Green_Floral_Welly_Boots.jpg",
+        price: 16
       },
       {
         id: 11,
-        name: "Adidas Yeezy",
-        imageUrl: "https://i.ibb.co/dJbG1cT/yeezy.png",
-        price: 280
+        name: "Ducky with Pink Floral Boots",
+        imageUrl:
+          "https://res.cloudinary.com/dcs/image/upload/v1572963206/Swish%20Fox/product-images/dcuk/Natural_Finish_Ducky_with_Pink_Floral_Welly_Boots.jpg",
+        price: 16
       },
       {
         id: 12,
-        name: "Black Converse",
-        imageUrl: "https://i.ibb.co/bPmVXyP/black-converse.png",
-        price: 110
+        name: "Ducky with Lilac and Gold Boots",
+        imageUrl:
+          "https://res.cloudinary.com/dcs/image/upload/v1572963206/Swish%20Fox/product-images/dcuk/Natural_Finish_Ducky_with_Lilac_and_Gold_Spotty_Welly_Boots.jpg",
+        price: 16
       },
       {
         id: 13,
-        name: "Nike White AirForce",
-        imageUrl: "https://i.ibb.co/1RcFPk0/white-nike-high-tops.png",
-        price: 160
+        name: "Ducky with Pink and Gold Boots",
+        imageUrl:
+          "https://res.cloudinary.com/dcs/image/upload/v1572963206/Swish%20Fox/product-images/dcuk/Natural_Finish_Ducky_with_Pink_and_Gold_Spotty_Welly_Boots.jpg",
+        price: 16
       },
       {
         id: 14,
-        name: "Nike Red High Tops",
-        imageUrl: "https://i.ibb.co/QcvzydB/nikes-red.png",
-        price: 160
-      },
-      {
-        id: 15,
-        name: "Nike Brown High Tops",
-        imageUrl: "https://i.ibb.co/fMTV342/nike-brown.png",
-        price: 160
-      },
-      {
-        id: 16,
-        name: "Air Jordan Limited",
-        imageUrl: "https://i.ibb.co/w4k6Ws9/nike-funky.png",
-        price: 190
-      },
-      {
-        id: 17,
-        name: "Timberlands",
-        imageUrl: "https://i.ibb.co/Mhh6wBg/timberlands.png",
-        price: 200
+        name: "Ducky with Blue Floral Boots",
+        imageUrl:
+          "https://res.cloudinary.com/dcs/image/upload/v1572963206/Swish%20Fox/product-images/dcuk/Natural_Finish_Ducky_with_Blue_Floral_Welly_Boots.jpg",
+        price: 16
       }
     ]
   },
@@ -121,34 +117,32 @@ const SHOP_DATA = {
     routeName: "herdy",
     items: [
       {
+        id: 15,
+        name: "Blue Peep Mug",
+        imageUrl:
+          "https://res.cloudinary.com/dcs/image/upload/v1572964140/Swish%20Fox/product-images/herdy/herdy-peep-mug-blue.jpg",
+        price: 10
+      },
+      {
+        id: 16,
+        name: "Purple Peep Mug",
+        imageUrl:
+          "https://res.cloudinary.com/dcs/image/upload/v1572964140/Swish%20Fox/product-images/herdy/herdy-peep-mug-purple.jpg",
+        price: 10
+      },
+      {
+        id: 17,
+        name: "Orange Peep Mug",
+        imageUrl:
+          "https://res.cloudinary.com/dcs/image/upload/v1572964140/Swish%20Fox/product-images/herdy/herdy-peep-mug-orange.jpg",
+        price: 10
+      },
+      {
         id: 18,
-        name: "Black Jean Shearling",
-        imageUrl: "https://i.ibb.co/XzcwL5s/black-shearling.png",
-        price: 125
-      },
-      {
-        id: 19,
-        name: "Blue Jean Jacket",
-        imageUrl: "https://i.ibb.co/mJS6vz0/blue-jean-jacket.png",
-        price: 90
-      },
-      {
-        id: 20,
-        name: "Grey Jean Jacket",
-        imageUrl: "https://i.ibb.co/N71k1ML/grey-jean-jacket.png",
-        price: 90
-      },
-      {
-        id: 21,
-        name: "Brown Shearling",
-        imageUrl: "https://i.ibb.co/s96FpdP/brown-shearling.png",
-        price: 165
-      },
-      {
-        id: 22,
-        name: "Tan Trench",
-        imageUrl: "https://i.ibb.co/M6hHc3F/brown-trench.png",
-        price: 185
+        name: "Pink Peep Mug",
+        imageUrl:
+          "https://res.cloudinary.com/dcs/image/upload/v1572964140/Swish%20Fox/product-images/herdy/herdy-peep-mug-pink.jpg",
+        price: 10
       }
     ]
   },
@@ -158,46 +152,46 @@ const SHOP_DATA = {
     routeName: "christmas",
     items: [
       {
+        id: 19,
+        name: "Starry Night",
+        imageUrl:
+          "https://res.cloudinary.com/dcs/image/upload/v1572965199/Swish%20Fox/product-images/light-glow/light-glow-tealight-starry-night.jpg",
+        price: 10
+      },
+      {
+        id: 20,
+        name: "Swallows",
+        imageUrl:
+          "https://res.cloudinary.com/dcs/image/upload/v1572965199/Swish%20Fox/product-images/light-glow/light-glow-tealight-swallows.jpg",
+        price: 10
+      },
+      {
+        id: 21,
+        name: "Forest Deer",
+        imageUrl:
+          "https://res.cloudinary.com/dcs/image/upload/v1572965199/Swish%20Fox/product-images/light-glow/light-glow-tealight-forest-deer.jpg",
+        price: 10
+      },
+      {
+        id: 22,
+        name: "Thistle",
+        imageUrl:
+          "https://res.cloudinary.com/dcs/image/upload/v1572965199/Swish%20Fox/product-images/light-glow/light-glow-tealight-thistle.jpg",
+        price: 10
+      },
+      {
         id: 23,
-        name: "Blue Tanktop",
-        imageUrl: "https://i.ibb.co/7CQVJNm/blue-tank.png",
-        price: 25
+        name: "Barn Owls",
+        imageUrl:
+          "https://res.cloudinary.com/dcs/image/upload/v1572965199/Swish%20Fox/product-images/light-glow/light-glow-tealight-barn-owls.jpg",
+        price: 10
       },
       {
         id: 24,
-        name: "Floral Blouse",
-        imageUrl: "https://i.ibb.co/4W2DGKm/floral-blouse.png",
-        price: 20
-      },
-      {
-        id: 25,
-        name: "Floral Dress",
-        imageUrl: "https://i.ibb.co/KV18Ysr/floral-skirt.png",
-        price: 80
-      },
-      {
-        id: 26,
-        name: "Red Dots Dress",
-        imageUrl: "https://i.ibb.co/N3BN1bh/red-polka-dot-dress.png",
-        price: 80
-      },
-      {
-        id: 27,
-        name: "Striped Sweater",
-        imageUrl: "https://i.ibb.co/KmSkMbH/striped-sweater.png",
-        price: 45
-      },
-      {
-        id: 28,
-        name: "Yellow Track Suit",
-        imageUrl: "https://i.ibb.co/v1cvwNf/yellow-track-suit.png",
-        price: 135
-      },
-      {
-        id: 29,
-        name: "White Blouse",
-        imageUrl: "https://i.ibb.co/qBcrsJg/white-vest.png",
-        price: 20
+        name: "Night Fairies",
+        imageUrl:
+          "https://res.cloudinary.com/dcs/image/upload/v1572965199/Swish%20Fox/product-images/light-glow/light-glow-tealight-night-fairies.jpg",
+        price: 10
       }
     ]
   },
@@ -207,40 +201,60 @@ const SHOP_DATA = {
     routeName: "weddings",
     items: [
       {
+        id: 25,
+        name: "Party Time",
+        imageUrl:
+          "https://res.cloudinary.com/dcs/image/upload/v1572961860/Swish%20Fox/product-images/lily-flame-candle-party-time.jpg",
+        price: 8.95
+      },
+      {
+        id: 26,
+        name: "Blush",
+        imageUrl:
+          "https://res.cloudinary.com/dcs/image/upload/v1572962181/Swish%20Fox/product-images/lily-flame-candle-blush.jpg",
+        price: 8.95
+      },
+      {
+        id: 27,
+        name: "Ducky with Lilac and Gold Boots",
+        imageUrl:
+          "https://res.cloudinary.com/dcs/image/upload/v1572963206/Swish%20Fox/product-images/dcuk/Natural_Finish_Ducky_with_Lilac_and_Gold_Spotty_Welly_Boots.jpg",
+        price: 16
+      },
+      {
+        id: 28,
+        name: "Ducky with Pink and Gold Boots",
+        imageUrl:
+          "https://res.cloudinary.com/dcs/image/upload/v1572963206/Swish%20Fox/product-images/dcuk/Natural_Finish_Ducky_with_Pink_and_Gold_Spotty_Welly_Boots.jpg",
+        price: 16
+      },
+      {
+        id: 29,
+        name: "Blue Peep Mug",
+        imageUrl:
+          "https://res.cloudinary.com/dcs/image/upload/v1572964140/Swish%20Fox/product-images/herdy/herdy-peep-mug-blue.jpg",
+        price: 10
+      },
+      {
         id: 30,
-        name: "Camo Down Vest",
-        imageUrl: "https://i.ibb.co/xJS0T3Y/camo-vest.png",
-        price: 325
+        name: "Pink Peep Mug",
+        imageUrl:
+          "https://res.cloudinary.com/dcs/image/upload/v1572964140/Swish%20Fox/product-images/herdy/herdy-peep-mug-pink.jpg",
+        price: 10
       },
       {
         id: 31,
-        name: "Floral T-shirt",
-        imageUrl: "https://i.ibb.co/qMQ75QZ/floral-shirt.png",
-        price: 20
+        name: "Starry Night",
+        imageUrl:
+          "https://res.cloudinary.com/dcs/image/upload/v1572965199/Swish%20Fox/product-images/light-glow/light-glow-tealight-starry-night.jpg",
+        price: 10
       },
       {
         id: 32,
-        name: "Black & White Longsleeve",
-        imageUrl: "https://i.ibb.co/55z32tw/long-sleeve.png",
-        price: 25
-      },
-      {
-        id: 33,
-        name: "Pink T-shirt",
-        imageUrl: "https://i.ibb.co/RvwnBL8/pink-shirt.png",
-        price: 25
-      },
-      {
-        id: 34,
-        name: "Jean Long Sleeve",
-        imageUrl: "https://i.ibb.co/VpW4x5t/roll-up-jean-shirt.png",
-        price: 40
-      },
-      {
-        id: 35,
-        name: "Burgundy T-shirt",
-        imageUrl: "https://i.ibb.co/mh3VM1f/polka-dot-shirt.png",
-        price: 25
+        name: "Forest Deer",
+        imageUrl:
+          "https://res.cloudinary.com/dcs/image/upload/v1572965199/Swish%20Fox/product-images/light-glow/light-glow-tealight-forest-deer.jpg",
+        price: 10
       }
     ]
   }
